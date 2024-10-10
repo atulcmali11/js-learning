@@ -1,0 +1,60 @@
+
+Array methods:-
+
+-its an objects
+-array contains different data types elemnts.
+-const array1=[1,2,3,'AA','BB'];
+- array1[2];
+- array[5];
+- array1[4]='Umaji';
+
+
+
+Methods:-
+
+1. push:-
+    -add elements into ayyary at the end.
+
+    num.push(ele);
+2. pop():-
+    -remove last elemnts of an array
+
+    num=[0,1,2,3,4,5,6];
+    num.pop(); return value--->6
+    num--->[0,1,2,3,4,5]
+
+3. unshift():-
+    -add new element at the begining of an array.
+
+    num.unshift(8);
+4. shift():-
+    - remove first index element of an array.
+      num.shift();
+
+5. Length:- return length of an array
+
+    -num.length;--->3
+6. slice():-
+
+   num.slice(1,3);
+
+
+
+7.const num1=num.slice(1,3);
+
+
+8. num2=num.splice(1,3);
+
+
+9. concat:-
+     console.log(num.toString());//convert array into string with comma separated values
+     e.g const num1=['atul','umaji'];
+
+    console.log(num.concat(num1));
+    console.log(num);
+    console.log(num1);
+    // concat the array and return new array
+
+
+
+
